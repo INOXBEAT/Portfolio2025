@@ -147,6 +147,10 @@ footer a {
 
 @media (max-width: 768px) {
 
+    body, h1, h2, p {
+        color: black !important;
+    }
+
     .cards-container {
         grid-template-columns: 1fr; /* Muestra las tarjetas en columna en pantallas pequeñas */
     }
@@ -165,6 +169,10 @@ footer a {
 
 
 @media (max-width: 480px) {
+
+    body, h1, h2, p {
+        color: black !important;
+    }
 
     .cards-container {
         grid-template-columns: 1fr; /* Muestra las tarjetas en columna en pantallas pequeñas */
