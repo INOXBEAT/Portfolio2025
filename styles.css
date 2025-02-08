@@ -118,8 +118,8 @@ button:hover {
 }
 
 .skill img {
-    width: 80px; /* Tamaño de las imágenes */
-    height: 80px;
+    width: 120px; /* Tamaño de las imágenes */
+    height: 120px;
     object-fit: cover; /* Hace que la imagen se ajuste correctamente */
 }
 
