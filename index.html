@@ -34,7 +34,7 @@
       property="og:description"
       content="Desarrollador frontend con experiencia en UI/UX y sitios modernos."
     />
-    <meta property="og:image" content="https://tusitio.com/preview.jpg" />
+    <meta property="og:image" content="" />
     <meta property="og:url" content="https://jpreciado2025.netlify.app/" />
     <meta name="twitter:card" content="summary_large_image" />
 
@@ -44,10 +44,17 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
 
+    <!-- CDN de SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Animate.css -->
+
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" rel="stylesheet">
+
+
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-
     <!-- Hero Section -->
     <header class="hero-section">
       <div class="container center-align">
@@ -65,8 +72,7 @@
 
     <!-- Contenedor Principal -->
     <main class="container">
-      <div class="row" style="color: black;">
-
+      <div class="row" style="color: black">
         <!-- Sección Sobre Mí -->
         <section class="col s12 m8">
           <h2>Sobre Mí</h2>
@@ -180,12 +186,16 @@
             <div class="card-content">
               <span class="card-title">Sistema de Gestión</span>
               <p>
-                Sistema que ayuda al usuario a tener una
-                experiencia más productiva y cómoda.
+                Sistema que ayuda al usuario a tener una experiencia más
+                productiva y cómoda.
               </p>
             </div>
             <div class="card-action">
-              <a href="https://demodashboardjp.netlify.app/" target="_blank">Ver más</a>
+              <a 
+              href="https://demodashboardjp.netlify.app/"
+              target="_blank"
+                >Ver más</a
+              >
             </div>
           </div>
         </div>
@@ -203,7 +213,7 @@
               </p>
             </div>
             <div class="card-action">
-              <a href="portfolio2025.png">Ver más</a>
+              <a href="project3.png" target="_blank">Ver más</a>
             </div>
           </div>
         </div>
@@ -218,7 +228,7 @@
               <p>Tienda virtual con diseño profesional.</p>
             </div>
             <div class="card-action">
-              <a href="project5.png">Ver más</a>
+              <a href="project5.png" target="_blank">Ver más</a>
             </div>
           </div>
         </div>
@@ -233,7 +243,7 @@
               <p>Sitio de diseño avanzado para negocios y profesionales.</p>
             </div>
             <div class="card-action">
-              <a href="project4.png">Ver más</a>
+              <a href="project4.png" target="_blank">Ver más</a>
             </div>
           </div>
         </div>
@@ -248,7 +258,7 @@
               <p>Interfaces amigables para mejorar la experiencia de compra.</p>
             </div>
             <div class="card-action">
-              <a href="project6.png">Ver más</a>
+              <a href="project6.png" target="_blank">Ver más</a>
             </div>
           </div>
         </div>
@@ -265,7 +275,7 @@
               </p>
             </div>
             <div class="card-action">
-              <a href="project7.png">Ver más</a>
+              <a href="project7.png" target="_blank">Ver más</a>
             </div>
           </div>
         </div>
@@ -299,17 +309,17 @@
           <p>MySQL</p>
         </div>
         <div class="skill">
-            <i class="large material-icons blue-text">
-              <img src="10.svg" alt="" srcset="" />
-            </i>
-            <p>Bootstrap</p>
-          </div>
-          <div class="skill">
-            <i class="large material-icons blue-text">
-              <img src="11.png" alt="" srcset="" />
-            </i>
-            <p>Materialize</p>
-          </div>
+          <i class="large material-icons blue-text">
+            <img src="10.svg" alt="" srcset="" />
+          </i>
+          <p>Bootstrap</p>
+        </div>
+        <div class="skill">
+          <i class="large material-icons blue-text">
+            <img src="11.png" alt="" srcset="" />
+          </i>
+          <p>Materialize</p>
+        </div>
         <div class="skill">
           <i class="large material-icons teal-text">
             <img src="5.png" alt="" srcset="" />
@@ -342,11 +352,11 @@
           <p>Moodle</p>
         </div>
         <div class="skill">
-            <i class="large material-icons orange-text">
-              <img src="12.svg" alt="" srcset="" />
-            </i>
-            <p>Office 365</p>
-          </div>
+          <i class="large material-icons orange-text">
+            <img src="12.svg" alt="" srcset="" />
+          </i>
+          <p>Office 365</p>
+        </div>
       </div>
 
       <!-- Formulario de Contacto -->
