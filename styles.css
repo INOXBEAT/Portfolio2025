@@ -156,7 +156,7 @@ footer a {
     }
 
     .skills-container {
-        grid-template-columns: 1fr 1fr;
+        
         grid-template-columns: repeat(2, 1fr); /* Mejora el espaciado en pantallas medianas */
         gap: 15px;
     }
