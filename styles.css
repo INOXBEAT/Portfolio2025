@@ -11,7 +11,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,10 +161,11 @@ footer a {
 
 /* RESPONSIVE */
 
+
 @media (max-width: 768px) {
 
     body {
-        width: 100;
+        width: 100%;
     }
 
     .hero-section {
