@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Inicializar EmailJS
     emailjs.init("OhlIJ0bHi37ZbZil_");
 
-    // Variables de formulario
     const formulario = document.getElementById("contacto");
     const nombreInput = document.getElementById("nombre");
     const emailInput = document.getElementById("email");
@@ -20,13 +18,27 @@ document.addEventListener("DOMContentLoaded", function () {
             const email = emailInput.value.trim();
             const mensaje = mensajeInput.value.trim();
 
-            if (!nombre || !email || !mensaje) {
-                M.toast({ html: "Por favor, llena todos los campos." });
+            if (!nombre) {
+                M.toast({ html: "Por favor, ingresa tu nombre.", classes: "red lighten-1" });
+                nombreInput.focus();
+                return;
+            }
+
+            if (!email) {
+                M.toast({ html: "Por favor, ingresa tu correo electrónico.", classes: "red lighten-1" });
+                emailInput.focus();
                 return;
             }
 
             if (!emailPattern.test(email)) {
-                M.toast({ html: "Por favor, ingresa un correo electrónico válido." });
+                M.toast({ html: "Por favor, ingresa un correo electrónico válido.", classes: "red lighten-1" });
+                emailInput.focus();
+                return;
+            }
+
+            if (!mensaje) {
+                M.toast({ html: "El mensaje no puede estar vacío.", classes: "red lighten-1" });
+                mensajeInput.focus();
                 return;
             }
 
@@ -50,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
 
 function agregarEventoImagenes() {
     document.addEventListener("click", function (event) {
