@@ -52,8 +52,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function agregarEventoImagenes() {
-    document.querySelector(".cards-container")?.addEventListener("click", function (event) {
-        const imagen = event.target.closest("img");
+    document.addEventListener("click", function (event) {
+        const imagen = event.target.closest(".col.s12.m6.l4 img"); // Selecciona imágenes dentro de la clase
         if (imagen) {
             Swal.fire({
                 imageUrl: imagen.src,
@@ -73,3 +73,4 @@ function agregarEventoImagenes() {
         }
     });
 }
+
