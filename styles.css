@@ -139,6 +139,32 @@ footer a {
     text-decoration: none;
 }
 
+/* Diseño de los Toast Messages*/
+.toast {
+    border-radius: 8px !important;
+    padding: 12px !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2) !important;
+    text-align: center;
+}
+
+.toast.blue {
+    background-color: #1976d2 !important;
+    color: #fff !important;
+}
+
+.toast.green {
+    background-color: #388e3c !important;
+    color: #fff !important;
+}
+
+.toast.red {
+    background-color: #d32f2f !important;
+    color: #fff !important;
+}
+
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
     .hero-section {
