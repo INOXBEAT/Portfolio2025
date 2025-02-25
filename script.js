@@ -56,6 +56,7 @@ function agregarEventoImagenes() {
         const imagen = event.target.closest(".col.s12.m6.l4 img"); // Selecciona imágenes dentro de la clase
         if (imagen) {
             Swal.fire({
+                width: "90%",
                 imageUrl: imagen.src,
                 imageAlt: "Vista del proyecto",
                 showCloseButton: true,
