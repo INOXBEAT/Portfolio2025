@@ -83,6 +83,7 @@
     <!-- Contenedor Principal -->
     <main class="container">
       <div class="row" style="color: black">
+        
         <!-- Sección Sobre Mí -->
         <section class="col s12 m8">
           <h2>Sobre Mí</h2>
@@ -181,8 +182,11 @@
       </div>
 
       <!-- Sección de Proyectos -->
+
       <h2 class="center">Proyectos</h2>
       <div class="row">
+
+        <!-- SISTEMA DE GESTIÓN -->
         <div class="col s12 m6 l4">
           <div class="card">
             <div
@@ -191,7 +195,10 @@
               data-aos="zoom-in"
               data-aos-delay="200"
             >
-              <img src="project1.png" alt="Proyecto 1" loading="lazy" />
+            <picture>
+              <source srcset="/images/project1.webp" type="image/webp">
+              <img src="/imagesJPG/project1.png" alt="sistema de gestión" loading="lazy" />
+            </picture>
             </div>
             <div class="card-content">
               <span class="card-title">Sistema de Gestión</span>
@@ -208,12 +215,16 @@
           </div>
         </div>
 
+        <!-- BLOG INFORMATIVO -->
         <div class="col s12 m6 l4">
           <div class="card">
             <div class="card-image" data-aos="flip-up">
-              <img src="project3.png" alt="Proyecto 3" loading="lazy" />
+              <picture>
+                <source srcset="/images/project3.webp" type="image/webp">
+                <img src="/imagesJPG/project3.png" alt="sistema de gestión" loading="lazy" />
+              </picture>
             </div>
-            <div class="card-content">
+            <div class="card-content">            
               <span class="card-title">Blog informativo</span>
               <p>
                 Blog que permite mantener informado al usuario que mantiene una
@@ -228,11 +239,15 @@
           </div>
         </div>
 
+        <!-- TIENDA EN LÍNEA -->
         <div class="col s12 m6 l4">
           <div class="card">
             <div class="card-image" data-aos="flip-up">
-              <img src="project5.png" alt="Proyecto 5" loading="lazy" />
-            </div>
+              <picture>
+                <source srcset="/images/project5.webp" type="image/webp">
+                <img src="/imagesJPG/project5.png" alt="tienda en línea" loading="lazy" />
+              </picture>  
+            </div>         
             <div class="card-content">
               <span class="card-title">Tienda en línea</span>
               <p>Tienda virtual con diseño profesional.</p>
@@ -245,10 +260,18 @@
           </div>
         </div>
 
+        <!-- BLOG AVANZADO -->
         <div class="col s12 m6 l4">
-          <div class="card">
+          <div class="card"
+          class="card-image" 
+            data-aos="flip-up"
+            data-aos="zoom-in"
+              data-aos-delay="200">
             <div class="card-image" data-aos="flip-up">
-              <img src="project4.png" alt="Proyecto 4" loading="lazy" />
+              <picture>
+                <source srcset="/images/project4.webp" type="image/webp">
+                <img src="/imagesJPG/project4.png" alt="tienda en línea" loading="lazy" />
+              </picture>  
             </div>
             <div class="card-content">
               <span class="card-title">Blog avanzado</span>
@@ -260,10 +283,14 @@
           </div>
         </div>
 
+        <!-- COMERCIO ELECTRÓNICO -->
         <div class="col s12 m6 l4">
           <div class="card">
             <div class="card-image" data-aos="flip-up">
-              <img src="project6.png" alt="Proyecto 6" loading="lazy" />
+              <picture>
+                <source srcset="/images/project6.webp" type="image/webp">
+                <img src="/images/project6.webp" alt="comercio electrónico" loading="lazy" />
+              </picture>
             </div>
             <div class="card-content">
               <span class="card-title">Comercio electrónico</span>
@@ -275,10 +302,14 @@
           </div>
         </div>
 
+        <!-- SERVICIOS PROFESIONALES -->
         <div class="col s12 m6 l4">
           <div class="card">
             <div class="card-image" data-aos="flip-up">
-              <img src="project7.png" alt="Proyecto 7" loading="lazy" />
+              <picture>
+                <source srcset="/images/project7.webp" type="image/webp">
+                <img src="/images/project7.webp" alt="comercio electrónico" loading="lazy" />
+              </picture>
             </div>
             <div class="card-content">
               <span class="card-title">Servicios Profesionales</span>
@@ -298,75 +329,112 @@
       <div class="skills-container">
         <div class="skill">
           <i class="large material-icons deep-purple-text">
-            <img src="1.png" alt="" srcset="" />
+            <picture>
+              <source srcset="/images/1.webp" type="image/webp">
+              <source srcset="imagesJPG/1.png" type="image/png">
+              <img src="imagesJPG/1.png" alt="HTML">
+            </picture>
           </i>
           <p>HTML</p>
         </div>
         <div class="skill">
           <i class="large material-icons purple-text">
-            <img src="2.png" alt="" srcset="" />
+            <picture>
+              <source srcset="/images/2.webp" type="image/webp">
+              <source srcset="imagesJPG/2.png" type="image/png">
+              <img src="imagesJPG/2.png" alt="CSS">
+            </picture>
           </i>
           <p>CSS</p>
         </div>
         <div class="skill">
           <i class="large material-icons amber-text">
-            <img src="3.png" alt="" srcset="" />
-          </i>
+            <picture>
+              <source srcset="/images/3.webp" type="image/webp">
+              <source srcset="/imagesJPG/3.png" type="image/png">
+              <img src="imagesJPG/3.png" alt="JAVASCRIPT">
+            </picture>          </i>
           <p>JavaScript</p>
         </div>
         <div class="skill">
           <i class="large material-icons blue-text">
-            <img src="4.png" alt="" srcset="" />
-          </i>
+            <picture>
+              <source srcset="/images/4.webp" type="image/webp">
+              <source srcset="/imagesJPG/4.png" type="image/png">
+              <img src="imagesJPG/1.png" alt="MYSQL">
+            </picture>          </i>
           <p>MySQL</p>
         </div>
         <div class="skill">
           <i class="large material-icons blue-text">
-            <img src="10.svg" alt="" srcset="" />
-          </i>
+            <picture>
+              <source srcset="/images/10.webp" type="image/webp">
+              <source srcset="/imagesJPG/10.svg" type="image/png">
+              <img src="imagesJPG/10.svg" alt="BOOTSTRAP">
+            </picture>           </i>
           <p>Bootstrap</p>
         </div>
         <div class="skill">
           <i class="large material-icons blue-text">
-            <img src="11.png" alt="" srcset="" />
-          </i>
+            <picture>
+              <source srcset="/images/11.webp" type="image/webp">
+              <source srcset="/imagesJPG/11.png" type="image/png">
+              <img src="imagesJPG/11.png" alt="MATERIALIZE">
+            </picture>          </i>
           <p>Materialize</p>
         </div>
         <div class="skill">
           <i class="large material-icons teal-text">
-            <img src="5.png" alt="" srcset="" />
-          </i>
+            <picture>
+              <source srcset="/images/5.webp" type="image/webp">
+              <source srcset="/imagesJPG/5.png" type="image/png">
+              <img src="imagesJPG/5.png" alt="WORDPRESS">
+            </picture>           </i>
           <p>WordPress</p>
-        </div>
-
+          </div>
         <div class="skill">
           <i class="large material-icons blue-grey-text">
-            <img src="6.png" alt="" srcset="" />
-          </i>
+            <picture>
+              <source srcset="/images/6.webp" type="image/webp">
+              <source srcset="/imagesJPG/6.png" type="image/png">
+              <img src="imagesJPG/6.png" alt="DIRECTORIO ACTIVO">
+            </picture>          </i>
           <p>Active Directory</p>
         </div>
         <div class="skill">
           <i class="large material-icons grey-text">
-            <img src="7.png" alt="" srcset="" />
-          </i>
+            <picture>
+              <source srcset="/images/7.webp" type="image/webp">
+              <source srcset="/imagesJPG/7.png" type="image/png">
+              <img src="imagesJPG/7.png" alt="SHAREPOINT">
+            </picture>          </i>
           <p>SharePoint</p>
         </div>
         <div class="skill">
           <i class="large material-icons purple-text">
-            <img src="8.png" alt="" srcset="" />
-          </i>
+            <picture>
+              <source srcset="/images/8.webp" type="image/webp">
+              <source srcset="/imagesJPG/8.png" type="image/png">
+              <img src="imagesJPG/8.png" alt="POWER AUTOMATE">
+            </picture>           </i>
           <p>Power Automate</p>
         </div>
         <div class="skill">
           <i class="large material-icons orange-text">
-            <img src="9.png" alt="" srcset="" />
-          </i>
+            <picture>
+              <source srcset="/images/9.webp" type="image/webp">
+              <source srcset="/imagesJPG/9.png" type="image/png">
+              <img src="imagesJPG/9.png" alt="MOODLE">
+            </picture>          </i>
           <p>Moodle</p>
         </div>
         <div class="skill">
           <i class="large material-icons orange-text">
-            <img src="12.svg" alt="" srcset="" />
-          </i>
+            <picture>
+              <source srcset="/images/12.webp" type="image/webp">
+              <source srcset="/imagesJPG/12.svg" type="image/png">
+              <img src="imagesJPG/12.svg" alt="OFFICE 365">
+            </picture>          </i>
           <p>Office 365</p>
         </div>
       </div>

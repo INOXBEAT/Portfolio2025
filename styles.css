@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url('bg.jpg');
+    background-image: url('/images/bg.webp');
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -10,7 +10,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background-image: url('hero.jpg');
+    background-image: url('/images/hero.webp');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
