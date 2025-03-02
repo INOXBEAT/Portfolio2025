@@ -4,6 +4,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
+    height: fit-content;
     margin: 0;
     padding: 0;
 }
@@ -39,6 +40,10 @@ body {
     z-index: 1;
 }
 
+.container p {
+    font-size: 18px;
+}
+
 /* Tarjetas */
 .cards-container {
     display: grid;
@@ -60,6 +65,7 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 100%;
     max-width: 350px;
+    will-change: transform, box-shadow;
 }
 
 .card-image img {
@@ -67,6 +73,7 @@ body {
     height: 300px;
     object-fit: cover;
     transition: transform 0.5s ease;
+    aspect-ratio: 16 / 9;
 }
 
 .card-content {
@@ -122,6 +129,12 @@ button {
     transition: transform 0.2s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+button:focus {
+    outline: 2px solid #6f1c86;
+    outline-offset: 2px;
+}
+
+
 button:hover {
     transform: scale(1.1);
     background-color: #6f1c86;
@@ -148,6 +161,9 @@ footer a {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2) !important;
     text-align: center;
 }
+
+.toast.toast-blue { background-color: #1976d2; color: #fff; }
+
 
 .toast.blue {
     background-color: #1976d2 !important;
@@ -183,6 +199,7 @@ footer a {
     .skill img {
         width: 100px;
         height: 100px;
+        object-fit: contain;
     }
 }
 
